@@ -2,6 +2,7 @@ const metalsmith = require("metalsmith");
 const markdown = require("metalsmith-markdown");
 const layouts = require("metalsmith-layouts");
 const data = require("./plugins/data");
+const frontMatterChecker = require("./plugins/front-matter-check");
 
 const package = require("./package.json");
 
@@ -32,6 +33,7 @@ site.source("./content");
 site.destination("./deploy");
 site.clean(true);
 site.use(data());
+site.use(frontMatterChecker());
 
 site.use(layouts({
   default: "default.ejs",
