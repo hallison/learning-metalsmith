@@ -1,12 +1,12 @@
 {
-  "name": "site",
+  "name": "sternianos-site",
   "version": "0.1.0",
-  "description": "Site",
+  "description": "Sternianos",
   "main": "build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hallison Batista <email@hallisonbatista.com>",
+  "author": "Hallison Batista <hallison@sternianos.com.br>",
   "license": "ISC",
   "private": true,
   "devDependencies": {

@@ -1,0 +1,18 @@
+title:
+  Sternianos
+description:
+  Base de fãs das histórias em quadrinhos de Samuel Stern da BUGS Comics,
+  lançado no Brasil pela Editora Graphite.
+hostname:
+  sternianos.com.br
+crew:
+- name: Hallison Batista
+  email: hallison (em) sternianos (ponto) com (ponto) br
+  social:
+    instagram: maispaginas
+path:
+  publishers: editoras
+  publications: publicacoes
+  authors: autores
+  posts: postagens
+  tags: marcacoes
